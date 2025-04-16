@@ -1,0 +1,148 @@
+#footer {
+    border-radius: 10px;
+    margin-top: 10px;
+     background: url("BT Apps And Technologies.jpg");
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           background-attachment: fixed;
+    width: 100%; /* Full width of the viewport */
+    height: 427px;
+    padding: 20px; /* Optional: Add padding for inner content spacing */
+    color: white; /* Optional: Text color */
+    text-align: center; /* Optional: Center text */
+  }
+  
+  
+  #footer img
+  {
+  
+            width: 100px;
+            height: 100px;
+            image-resolution: 100%;
+            margin-top: 20px;
+           border: dotted black;
+  }
+  #footer img:hover
+  {
+    cursor: no-drop;
+  }
+  
+  .icon-style
+  {
+    margin-top: 60px;
+    text-align: center; /* Ensure icons are centered horizontally */
+  }
+  
+  .icon-style a 
+  {
+    font-size: 30px;
+    margin-left: 40px;
+    padding: 20px 20px;
+    background: rgba(0, 0, 0, 0.5); /* Use rgba for semi-transparent black background */
+    color: #858486; /* Initial color for icons */
+    border-radius: 50%;
+    display: inline-flex;
+    text-decoration: none;
+    transition: .5s all; /* Transition for smooth hover effect */
+  }
+  
+  .icon-style a:first-child {
+    margin-left: 10px; /* Adjust spacing for the first icon */
+  }
+  
+  .icon-style a:hover {
+    color: #fff; /* Change icon color on hover */
+    background: blue; /* Change background color on hover */
+  }
+  .icon-style .b_insta:hover {
+    color: #fff; /* Change icon color on hover */
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Instagram gradient */
+  }
+  .icon-style .c_youth:hover {
+    color: #fff; /* Change icon color on hover */
+    background: red; /* Change background color on hover */
+  }
+  .icon-style .c_youth_er {
+    color: #fff; /* Change icon color on hover */
+    background: red; /* Change background color on hover */
+  }
+  .icon-style .c_youth_er:hover {
+    color: #fff; /* Change icon color on hover */
+    background: red;
+    cursor: no-drop;
+     /* Change background color on hover */
+  }
+  
+  .icon-style .d_blog:hover {
+    color: #fff; /* Change icon color on hover */
+    background: orange;
+    }   
+    
+  
+
+      /* Footer Styles */
+      #footer {
+        background-color: transparent;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        font-family: Arial, sans-serif;
+    }
+    
+    /* #footer img {
+        height: 60px;
+        margin-bottom: 10px;
+    }*/
+    
+    #footer h2 {
+        margin: 10px 0;
+    }
+    
+    .icon-style {
+        margin: 20px 0;
+    }
+    
+    .icon-style h3 {
+        margin-bottom: 15px;
+    }
+    
+    .icon-style a {
+        color: white;
+        font-size: 24px;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    
+    .icon-style a:hover {
+        transform: scale(1.2);
+    }
+    
+    .a_face:hover { color: #3b5998; }
+    .b_insta:hover { color: #e4405f; }
+    .c_youth:hover { color: #cd201f; }
+    .d_blog:hover { color: #ff5722; }
+    
+    /* Info Bar Styles */
+    .info-bar {
+      border-radius: 5rem;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 10px;
+        font-size: 14px;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    }
+    
+    #footer:hover .info-bar {
+        opacity: 1;
+        transform: translateY(0);
+    }

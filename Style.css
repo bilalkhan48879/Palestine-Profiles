@@ -1,0 +1,359 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url("BT Apps And Technologies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.container
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.img_profile
+{
+border-radius: 50%;
+width: 150px;
+height: 150px;
+gap: 20px;
+row-gap: 20px;
+padding: 30px;
+cursor: not-allowed;
+}
+
+h1 
+{
+    text-align: center;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: #2980b9;
+    margin-bottom: 30px;
+    border-radius: 5rex;
+    padding: 10px;
+}
+
+#h3_id
+{
+    background: chartreuse;
+    display: inline-flex;
+    padding: 20px;
+    text-align: center;
+    color: #9900ff;
+    margin-bottom: 30px;
+    border-radius: 5rex;
+}
+
+h4
+{
+    text-align: center;
+    background: rgb(18, 252, 38);
+    color: #1297f0;
+    margin-bottom: 30px;
+    border-radius: 5rex;
+    padding: 5px;
+}
+
+.app-container 
+{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.controls 
+{
+    flex: 1;
+    min-width: 300px;
+}
+
+.preview-section 
+{
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.canvas-container
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #b60909;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.download-btn 
+{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover 
+{
+    background-color: #2980b9;
+}
+
+canvas
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+@media (max-width: 768px) 
+{
+    .app-container
+     {
+        flex-direction: column;
+    }
+}
+
+#user_profiles
+{
+    background: url("Pals_Back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10px;
+    border-radius: 5rcap;
+
+    max-width: 100%;
+    max-height: 50%;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#profileMarquee
+{
+  margin-bottom: 20px;
+}
+
+#Profile_Counter
+{
+    
+    color: black;
+    padding: 5px;
+    display: inline-block;
+}
+
+.dropbox
+{
+    border-top: 5px dashed orangered;
+    border-bottom: 5px dashed orange;
+    border-left: 5px dashed blue;
+    border-right: 5px dashed blueviolet;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px auto;
+    max-width: 400px;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    background: skyblue;
+  }
+  
+  .dropbox:hover
+{
+    border-bottom: 5px dashed orangered;
+    border-top: 5px dashed orange;
+    border-right: 5px dashed blue;
+    border-left: 5px dashed blueviolet;
+}
+  
+.dropbox i
+{
+    font-size: 48px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+  
+.dropbox p
+  {
+    background-color: aliceblue;
+      color: #e70a0a;
+      padding: 10px;
+      border-radius: 5rem;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+  
+  }  
+  
+  #profile-upload 
+  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .preview-text
+  {
+    
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+    border-radius: 5rex;
+    padding: 5px;
+  }
+
+
+#deleteProfileBtn
+{
+    background-color: #d35252;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#deleteProfileBtn:hover
+{
+    background-color: #ff0101;
+}
+
+label
+{
+    padding: 10px;
+    border-radius: 5rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: text;
+    color: #000000;
+}
+
+label:hover
+{
+color: #07ff8b;
+
+}
+
+input 
+{
+cursor: pointer;
+}
+input #bgColor
+{
+width: 100px;
+height: 100px;
+padding-left: 10px;
+}
+select
+{
+cursor: pointer;
+}
+
+.profile-wrapper
+{
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+.profile-tooltip
+ {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 100;
+}
+
+.profile-tooltip::after
+{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+    cursor: pointer;
+}
+
+.profile-wrapper:hover .profile-tooltip
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.profile-wrapper:hover .img_profile
+{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Style for profile containers */
+.profile-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Style for profile images */
+.img_profile {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #e4312b;
+}
+
+/* Style for ID labels */
+.profile-id {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
