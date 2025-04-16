@@ -360,7 +360,7 @@ const profileMarquee = document.getElementById('profileMarquee');
 // GitHub configuration
 const GITHUB_USERNAME = 'bilalkhan48879';
 const GITHUB_REPO = 'Palestine-Profiles';
-const GITHUB_TOKEN = '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';
+const GITHUB_TOKEN = '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';
 const GITHUB_BRANCH = 'main';
 const PROFILES_FOLDER = 'profiles'; 
 
